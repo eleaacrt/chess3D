@@ -15,3 +15,7 @@
 - implémentation des règles et des contraintes de chaque pion
 
 ⭐ **DÉFI TECHNIQUE :** La principale problématique a été de garder l'interface ImGui et le rendu OpenGL synchronisés à chaque coup : un déplacement validé sur l’interface 2D devait immédiatement se répercuter sur la position des pièces en 3D, sans décalage ni état incohérent. Pour ça, j'ai centralisé l'état du plateau dans une seule structure de données : un tableau de pointeurs, lu à la fois par l'interface et par le moteur de rendu.
+
+---
+
+<img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/caf9a8fa-dde5-47be-9a55-60186a0c6792" />
